@@ -1,0 +1,129 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: "Tektur", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: <800>;
+    font-style: normal;
+    font-variation-settings:
+      "wdth" 100;
+
+}
+
+.section{
+    padding: 50px;
+}
+.section-one{
+    background-color: black;
+    color: white;
+    padding: 20px;
+}
+
+.section-one__title{
+    font-size: 45px;
+}
+
+.section-one__desc{
+    margin-top: 10px;
+    font-size: 22;
+    
+}
+.section-one__contact{
+    text-decoration: none;
+    background-color: yellow;
+    color: black;
+   padding-right: 5px;
+   padding-left: 5px;
+    display: inline-block;
+    margin-top: 10px;
+
+}
+
+
+
+.section-three{
+    display: inline-block;
+    height: 200px;;
+    background-color:paleturquoise;
+    color: black;
+    padding: 20px;
+    vertical-align: top;
+    border-radius: 10px;
+}
+
+.section-four{
+    display: inline-block;
+    height: 200px;
+    background-color:paleturquoise;
+    color: black;
+    padding: 20px;
+    vertical-align: top;
+    border-radius: 10px;
+}
+ 
+
+.section-one,.section-two,.section-three,.section-four,.section-five{
+    margin-top: 20px;
+}
+
+.section-one__desc,.section-two__desc,.section-three__desc,.section-four__desc,.section-five__desc{
+    margin-top: 10px;
+}
+
+.section-five{
+    background-color: black;
+    color: white;
+    padding: 20px;
+}
+
+.section-five__title a{
+    color: aqua;
+}
+
+.section-five__title a:hover {
+    color: chartreuse;
+}
+
+.section-three__desc li,.section-four__desc li{
+    list-style: none;
+}
+
+.section-five__desc:hover{
+    background-color: #E82C33;
+    color: antiquewhite;
+}
+
+
+
+.contact-form{
+    margin-top: 20px;
+}
+
+.contact-form__input, .contact-form__textarea, .contact-form__submit{
+    margin-top: 10px;
+}
+
+.contact-form__input{
+    padding: 10px;
+    border: none;
+    border-bottom: solid chartreuse 3px;
+}
+
+.contact-form__textarea{
+    padding: 10px;
+    border: solid chartreuse 3px;
+}
+
+.contact-form__submit{
+    background-color: dimgrey;
+    color: white;
+    padding: 5px;
+    border: none;
+}
+
+.contact-form__submit:hover{
+    background-color: #BA3375;
+}
